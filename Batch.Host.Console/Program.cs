@@ -10,6 +10,7 @@ namespace Batch.Host.Console
     {
         static void Main(string[] args)
         {
+            Bootstrapper.Initialize();
         }
     }
 }
